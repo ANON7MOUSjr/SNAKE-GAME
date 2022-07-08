@@ -68,6 +68,8 @@ io.on('connection', function (socket) {
          
     });
  
-     
+     httpServer.listen(process.env.PORT || 3000, () => {
+        console.log("LISTENING ON PORT 3000...");
+     })
 
 });
