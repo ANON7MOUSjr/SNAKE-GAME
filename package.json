@@ -5,7 +5,7 @@
     "main": "server.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node  ./multiplayer/backend/server.mjs"
+      "start": "node --experimental-modules ./multiplayer/backend/server.mjs"
     },
     "author": "",
     "license": "ISC",
